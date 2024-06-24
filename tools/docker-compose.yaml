@@ -1,0 +1,38 @@
+version: '3.1'
+
+services:
+  mongodb:
+    image: mongo:7.0.8
+    container_name: mongo
+    networks:
+      - demo_network
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data/mongo:/data/db
+
+  mongo-express:
+    image: mongo-express
+    container_name: mongo-express
+    environment:
+      ME_CONFIG_MONGODB_SERVER: mongo
+      ME_CONFIG_MONGODB_PORT: 27017
+    ports:
+      - 8081:8081
+    networks:
+      - demo_network
+
+  rabbitmq:
+    image: rabbitmq:3.11.11-management
+    container_name: rabbitmq_local_docker
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - ./data/rabbitmq:/data/db
+    networks:
+      - demo_network
+
+networks:
+  demo_network:
+    driver: bridge
