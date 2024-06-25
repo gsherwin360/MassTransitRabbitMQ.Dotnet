@@ -1,6 +1,6 @@
 # MassTransitRabbitMQ.Dotnet
 
-This demo API showcases inter-service communication across different modules within a single codebase, emphasizing a loosely coupled architecture. 
+This demo API demonstrates inter-service communication across different modules within a single codebase, emphasizing a loosely coupled architecture. 
 It utilizes MassTransit with RabbitMQ to enable asynchronous and scalable messaging between services.
 
 ## Overview
