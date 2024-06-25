@@ -49,3 +49,20 @@ To run the API locally, follow these steps:
 
 #### Integration.Contracts
 - A sub-project within the service layer that focuses on defining interfaces that establish standardized communication protocols, enabling services to communicate without being tightly coupled to each other, promoting consistency and reliability in inter-service communication.
+
+## Screenshots
+### Screenshot 1: Docker Containers Running
+![Docker_Screenshot](https://github.com/gsherwin360/MassTransitRabbitMQ.Dotnet/assets/17651320/b5153059-b0ce-4680-84f1-e7a2bd0e3d4b)
+
+---
+### Screenshot 2: Mongo Express Interface (with Example Data)
+![MongoExpress_Screenshot](https://github.com/gsherwin360/MassTransitRabbitMQ.Dotnet/assets/17651320/df4ba06f-a03a-4a91-8047-71eb44efa85e)
+
+---
+### Screenshot 3: RabbitMQ Management Interface
+![RabbitMQ_Management_Screenshot](https://github.com/gsherwin360/MassTransitRabbitMQ.Dotnet/assets/17651320/93e5a755-c2f1-454d-ba79-dd41223e0d5d)
+
+---
+### Screenshot 4: Multiple Startup Projects Setup and Swagger UI
+![Screenshot_5](https://github.com/gsherwin360/MassTransitRabbitMQ.Dotnet/assets/17651320/c56b32d1-ebce-4f9d-9b82-a4596b2cfa7f)
+![Screenshot_4](https://github.com/gsherwin360/MassTransitRabbitMQ.Dotnet/assets/17651320/0c0feac1-6650-4b91-bcec-de74f322c20d)
